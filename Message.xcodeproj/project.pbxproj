@@ -58,16 +58,40 @@
 		456BF6032142822800CED8B1 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				456BF61A2142D4C700CED8B1 /* Swift */,
+				456BF61B2142D4E600CED8B1 /* StoryBoard */,
+				456BF61C2142D4FE00CED8B1 /* Assets */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		456BF61A2142D4C700CED8B1 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
 				456BF6042142822800CED8B1 /* AppDelegate.swift */,
 				456BF6062142822800CED8B1 /* ViewController.swift */,
 				456BF6162142824B00CED8B1 /* SCLAlertView.swift */,
 				456BF6172142824B00CED8B1 /* SCLExtensions.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		456BF61B2142D4E600CED8B1 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
 				456BF6082142822800CED8B1 /* Main.storyboard */,
-				456BF60B2142822A00CED8B1 /* Assets.xcassets */,
 				456BF60D2142822A00CED8B1 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		456BF61C2142D4FE00CED8B1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				456BF60B2142822A00CED8B1 /* Assets.xcassets */,
 				456BF6102142822A00CED8B1 /* Info.plist */,
 			);
-			path = Message;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Message/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Message/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Message/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Message/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
